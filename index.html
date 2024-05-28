@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Dev | KC</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- Animaciones CSS CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+	<!-- Header | NavBar -->
+	<nav>
+		<h1>Karen Covarrubias</h1>
+		<ul>
+			<li><a href="#aboutme" class="nav-link">About me</a></li>
+			<li><a href="#skills" class="nav-link">Skills</a></li>
+			<li><a href="#projects" class="nav-link">Projects</a></li>
+			<li><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+		<button class="burger-menu" id="burger-menu">
+			<ion-icon name="menu-outline"></ion-icon>
+		</button>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="hero" id="about">
+		<img src="assets/images/one.png
+    " alt="">
+		<div class="bio animate__animated aninate__shakeX">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+				Hi there! 👋 I'm Karen Covarrubias, a skilled Frontend Developer focused on innovative UI/UX design. Ready to transform ideas into stunning, functional web solutions! 
+				<!-- 25 palabras X2 (aquí una, otra después) -->
+			</p>
+		</div>
+	</section>
+
+	<!-- About me Section -->
+	<section class="more-about">
+    <h2>More about me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque dolorem quaerat qui dolores modi eum omnis, delectus illo, maiores consectetur reprehenderit accusantium beatae, fugiat laudantium. Ipsa dolore saepe illo?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam suscipit a nobis dolor! Autem, pariatur cumque quaerat laborum enim repellat explicabo laudantium reiciendis asperiores iure ut quos ducimus voluptas dicta.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit magnam laudantium nam vel culpa, iure, consequatur expedita hic illum nemo inventore, laborum perferendis id. Nobis quos necessitatibus tenetur incidunt illo!</p>
+  </section>
+	
+	<!-- Skills Section -->
+	<section class="skills" id="skills">
+		<h2 class="skills-header">My Top Skills</h2>
+		<div class="skills-wrapper">
+			<div class="first-set animate__animated animate__pulse">
+				<img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+				<img src="assets/icons/icons8-css.svg" alt="" loading="lazy" class="icon icon-card">
+				<img src="assets/icons/icons8-github.svg" alt="" loading="lazy" class="icon icon-card">
+			</div>
+			<div class="second-set animate__animated animate__pulse">
+				<img src="assets/icons/icons8-html.svg" alt="" loading="lazy" class="icon icon-card">
+				<img src="assets/icons/icons8-js.svg" alt="" loading="lazy" class="icon icon-card">
+				<img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+			</div>
+		</div>
+	</section>
+	
+	<!-- Projects -->
+	<section class="projects" id="projects">
+		<h2 class="projects-title">Some of my Recent Projects</h2>
+		<div class="projects-container">
+			<!-- #1 -->
+			<div class="project-container project-card">
+				<img src="assets/images/pinterest_screen.png" alt="" loading="lazy" class="project-pic">
+				<h3 class="project-title">Project one</h3>
+				<p class="project-details">Take a break!</p>
+				<a href="#" target="_blank" class="project-link">Check it out</a>
+			</div>
+			<!-- #2 -->
+			<div class="project-container project-card">
+				<img src="assets/images/pinterest_screen.png" alt="" loading="lazy" class="project-pic">
+				<h3 class="project-title">Project two</h3>
+				<p class="project-details">Pinterest Clon</p>
+				<a href="#" target="_blank" class="project-link">Check it out</a>
+			</div>
+			<!-- #3 -->
+			<div class="project-container project-card">
+				<img src="assets/images/pinterest_screen.png" alt="" loading="lazy" class="project-pic">
+				<h3 class="project-title">Project three</h3>
+				<p class="project-details">My First Portfolio</p>
+				<a href="#" target="_blank" class="project-link">Check it out</a>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Contact Section -->
+	<section class="contact" id="contact">
+		<h2>Get In Touch With Me</h2>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<form action="https://formspree.io/f/xrgnvple" method="POST">
+					<div class="form-control">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
+					</div>
+					<div class="form-control">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+							required />
+					</div>
+					<div class="form-control">
+						<label for="message">Message</label>
+						<textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field"
+							required></textarea>
+					</div>
+					<input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Social Media Section -->
+	<div class="socials">
+		<a href="https://github.com/soykarencm" target="_blank"><img src="assets/icons/icons8-git.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+
+		<a href="#"><img src="assets/icons/icons8-linkedin.gif" alt="Linkedin" loading="lazy" class="socicon"></a>
+
+		<a href="#"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+	</div>
+
+	<!-- Scroll Button -->
+	<i class="scroll-up" id="scroll-up">
+		<img src="assets/icons/icons8-upward-arrow.gif" alt="" class="socion">
+	</i>
+
+	<!-- Footer Section -->
+	<footer>
+		<p>Built with 💜, by Karen Covarrubias</p>
+	</footer>
+	
+		<!-- Website scripts -->
+		<script src="assets/js/app.js"></script>
+		
+		<!-- Ion icons scripts -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
