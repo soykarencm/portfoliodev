@@ -19,6 +19,6 @@ This project is the first version of my portfolio of personal projects, created 
 + **Google Fonts**: For customized fonts.
 
 ### ➡️ Vista Previa del Proyecto
-
+-- Pendiente --
 
 #technolochicas #project #poftfolio
